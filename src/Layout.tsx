@@ -14,10 +14,12 @@ export const Layout = () => {
 
     return (
         <>
-        <div className='flex flex-col h-screen'>
+        <div className='flex flex-col h-screen overflow-x-hidden'>
 
             <div className="p-4  flex justify-between bg-[#f1f1f1]">
-                <Logo className=" h-[50px]" viewBox="0 0 1138 477" />
+                {/* <Logo className=" h-[50px]" viewBox="0 0 1138 477" /> */}
+                <Logo className="h-[50px] max-w-[200px]" viewBox="0 0 1138 477" />
+
                 <p>Don't have an account yet?{location?.pathname=='/signup'?<NavLink to="/login" className="text-primary">Sign In</NavLink >:<NavLink to="/signup" className="text-primary">Sign Up</NavLink >}</p>
             </div>
 

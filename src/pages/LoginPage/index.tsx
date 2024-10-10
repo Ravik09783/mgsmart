@@ -118,7 +118,7 @@ const LoginPage = () => {
                 <div className="mb-6 flex justify-between align-baseline">
                     <button
                         type="submit"
-                        className="btn btn-primary "
+                        className="btn bg-[#26818e] text-white"
                         disabled={!isFormValid()}
                     >
                         Submit

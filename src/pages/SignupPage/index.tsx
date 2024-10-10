@@ -166,7 +166,7 @@ const Signup = () => {
                     <div className="mb-6">
                         <button
                             type="submit"
-                            className="btn btn-primary w-full"
+                            className="btn bg-[#26818e] text-white w-full"
                             disabled={!isFormValid()}
                         >
                             Continue

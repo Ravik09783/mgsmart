@@ -65,10 +65,10 @@ const ForgotPage = () => {
                     {errors.email && <p className="text-red-500 text-sm mt-1">{errors.email}</p>}
                 </div>
 
-                <div className="mb-6 flext justify-between">
+                <div className="flext justify-between " style={{display:'flex'}}>
                     <button
                         type="submit"
-                        className="btn btn-primary"
+                        className="btn bg-[#26818e] text-white"
                         disabled={!isFormValid()}
                     >
                         Send reset link
